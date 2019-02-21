@@ -55,6 +55,11 @@ namespace LinkedList
             }
         }
 
+        public void ClearAll()
+        {
+            headNode = null;
+        }
+
         public void Remove(int data)
         {
             if(headNode.data == data && headNode.nextNode == null)
